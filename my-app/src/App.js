@@ -2,6 +2,7 @@ import './App.css';
 import ControlledFormsHooks from "./components/ControlledFormsHooks";
 import UseStatesWithArrays from './components/UseStatesWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
+import HooksCounter from './components/HooksCounter';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* <UseStatesWithArrays /> */}
       {/* lecture 3 hooks below */}
       <UseStateWithObjects />
+      <HooksCounter />
 
     </div>
   );
