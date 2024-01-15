@@ -10,14 +10,24 @@ function UseStateWithObjects() {
                     type="text"
                     value={name.firstName}
                     onChange={e => setName({
-                        firstName: e.target.value
+                    // spread the current value of the 
+                    // name property into the object we’re pushing into the state with the setName function.
+                    // By doing this, the entire name object will be copied into the new object,  
+                    // and the appropriate properties will just be replaced with their new values.
+                        ...name,
+                        firstName: e.target.value,
                     })}
                 />
                 <input
                     type="text"
                     value={name.lastName}
                     onChange={e => setName({
-                        lastName: e.target.value
+                    // spread the current value of the 
+                    // name property into the object we’re pushing into the state with the setName function.
+                    // By doing this, the entire name object will be copied into the new object,  
+                    // and the appropriate properties will just be replaced with their new values.
+                        ...name,
+                        lastName: e.target.value,
                     })}
                 />
                 <h2>{JSON.stringify(name)}</h2>
