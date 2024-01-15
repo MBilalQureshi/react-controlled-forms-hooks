@@ -3,7 +3,7 @@ import ControlledFormsHooks from "./components/ControlledFormsHooks";
 
 function App() {
   return (
-    <div className={App}>
+    <div className='App'>
       {/* Add your components here */}
       <ControlledFormsHooks />
     </div>
