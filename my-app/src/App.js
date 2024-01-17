@@ -6,6 +6,7 @@ import HooksCounter from './components/HooksCounter';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterConditional from './components/UseEffectCounterConditional';
 import UseEffectRunOnlyOnce from './components/UseEffectRunOnlyOnce';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 function App() {
   return (
@@ -23,7 +24,10 @@ function App() {
       {/* lecture 5 Useeffect */}
       {/* <UseEffectCounterConditional /> */}
       {/* lecture 6 Useeffect */}
-      <UseEffectRunOnlyOnce />
+      {/* <UseEffectRunOnlyOnce /> */}
+      {/* lecture 7 Useeffect */}
+      <UseEffectCounterContainer />
+
     </div>
   );
 }
